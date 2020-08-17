@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours - Queenstown Tours</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="tours.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+
+      <!-- first header -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark first-header">
+        <a class="navbar-brand logo" href="index.html"><img src="logo_png.png" class="img-fluid" alt=""></a>
+
+
+      </nav>
+
+    <!-- second header -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link home" href="index.html">HOME<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link enquire" href="tours.html">BOOK NOW</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link contact" href="#">CONTACT US</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+        <!--- Welcome Section -->
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-4">Let's get going!</h1>
+      </div>
+    </div>
+    <hr class="light-100">
+    </div>
+
+    <!--- Form -->
+
+    <div class="container-fluid padding">
+    <div class="row justify-content-center padding">
+      <div class="col-md-6">
+        <div class="card">
+
+          <form class="form-group" action="http://sit.robertclarkson.net/submission.php"  target="black" method="get">
+              <div class=" card-header col-md-12">
+                  <h4 class="pt-2">Passenger Details</h4>
+              </div>
+            <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>Selected Activity:</strong>
+                      <input type="text" name="selected_activity" class="form-control " id="selected-activity" value="selected-activity" readonly>
+                  </div>
+            </div>
+            <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>When?</strong>
+                      <input type="date" name="book_date" class="form-control padding" value="" required>
+                  </div>
+              </div>
+                  <div class="col-md-12 col-xs-12">
+                    <strong>Time:</strong>
+                    <select name="time" class="custom-select mb-3" required>
+                      <option selected value="">Choose Time</option>
+                      <option value="0900">9:00AM</option>
+                      <option value="1000">10:00AM</option>
+                      <option value="1100">11:00AM</option>
+                      <option value="1200">12:00PM</option>
+                      <option value="1300">1:00PM</option>
+                      <option value="1400">2:00PM</option>
+                      <option value="1500">3:00PM</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12 col-xs-12">
+                    <strong>How many people:</strong>
+                    <select name="time" class="custom-select mb-3" required>
+                      <option selected value="">Choose how many people</option>
+                      <option value="01">1</option>
+                      <option value="02">2</option>
+                      <option value="03">3</option>
+                      <option value="04">4</option>
+                      <option value="05">5</option>
+                      <option value="06">6</option>
+                      <option value="07">7</option>
+                    </select>
+                  </div>
+              <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>First Name:</strong>
+                      <input type="text" name="first_name" class="form-control padding" value="" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                    <strong>Last Name:</strong>
+                    <input type="text" name="last_name" class="form-control padding" value="" required>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>Phone Number:</strong>
+                      <input type="text" name="phone_number" class="form-control padding" value="">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>Date of Birth:</strong>
+                      <input type="date" name="dob" class="form-control padding" value="" required>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                      <strong>Email Address:</strong>
+                      <input type="email" name="email_address" class="form-control padding" value="" required>
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="card-footer col-md-12">
+                    <h4>Card Details</h4>
+                </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-md-12 col-xs-12">
+                    <strong>Card Type:</strong>
+                    <select id="CreditCardType" name="CreditCardType" class="form-control" required>
+                      <option selected value="">Select a card</option>
+                      <option value="visa">Visa</option>
+                      <option value="mastercard">MasterCard</option>
+                      <option value="american_express">American Express</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12 col-xs-12">
+                    <strong>Card Number:</strong>
+                    <input type="text" class="form-control" name="card_number" value="" required>
+                </div>
+              </div>
+            <div class="form-group">
+                <div class="col-md-12 col-xs-12">
+                    <strong>Card CVV:</strong>
+                    <input type="text" class="form-control" name="card_code" value="" required>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-xs-12">
+                <strong>Expire Date:</strong>
+                <select name="date" class="custom-select mb-3" required>
+                  <option selected value="">Month</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </div>
+              <div class="col-md-12 col-xs-12">
+                <select name="year" class="custom-select mb-3" required>
+                  <option selected value="">Year</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                </select>
+              </div>
+            <br>
+            <div class="form-group">
+              <div class="col-md-12 col-xs-12">
+                <input type="submit" value="Submit" class="form-control btn btn-primary">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="light-100">
+  </main>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-2">
+
+          <!-- Content -->
+          <h5 class="text-uppercase text-white"></h5>
+          <p class="text-white"></p>
+
+        </div>
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase text-white">Popular Posts</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p class="text-white">“I had loved going into the Queenstown Skyline, it was awesome!”.</p>
+            <p>25-September 2018</p>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase text-white">Objectives</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p class="text-white">-  Online tour booking;</p>
+            </li>
+            <li>
+              <p class="text-white">- Do not have any paper usage;</p>
+            </li>
+            <li>
+              <p class="text-white">- Show images and reviews;</p>
+            </li>
+            <li>
+              <p class="text-white">- Bring new costumers</p>
+            </li>
+          </ul>
+        </div>
+
+         <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase text-white">Get in touch</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p class="text-white">You can send us an e-mail or even to get in touch with our call center, if there is any delay with our e-mails!</p>
+            </li>
+          </ul>
+            <p class="text-white">Queenstown,  New Zealand</p>
+            <p class="text-white">queenstowntours@outlook.com</p>
+            <p class="text-white">0800 607 15389</p>
+            <a href="http://facebook.com"><i class="fa fa-facebook-square"></i></a>
+            <a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a>
+            <a href="http://linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+            <a href="mailto:david.cartman@sit.ac.nz?subject=Give%20us%20A+" class="fa fa-envelope"></a>
+          </div>
+        <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+            alt="">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright GG Enterprises</div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <script>
+      loadOrder();
+      function loadOrder(){
+        var params = new URLSearchParams(document.location.search.substring(1));
+        var product = params.get("product");
+        if (product == "Skippers Canyon 4WD" || product == "Macetown 4WD" || product == "Quad Biking") {
+          document.getElementById('selected-activity').value = product;
+        }
+      }
+    </script>
+  </body>
+</html>

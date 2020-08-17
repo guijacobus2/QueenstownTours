@@ -1,0 +1,65 @@
+.first-header {
+ 	background-color: #000 !important;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+.fa {
+  color: white;
+  padding: 10px;
+}
+
+.fa:hover {
+  color: #00bac6;
+}
+
+.facebook-icon, .twitter-icon, .linkedin-icon {
+  font-size: 25px;
+}
+
+.home, .enquire, .contact {
+	font-family: Open sans;
+}
+
+.home:hover, .enquire:hover, .contact:hover {
+	border-bottom: 1px solid #00bac6;
+	color: #00bac6 !important;
+}
+
+.home {
+	margin-left: 150px;
+}
+
+.form-inline {
+	margin-right: 100px;
+}
+
+.leader, .leader-text {
+	text-align: center;
+	padding-top: 10px;
+	color: #6d6c6d;
+	font-family: Open sans;
+}
+
+.tours-head {
+	margin: 0 0 16px 0;
+}
+
+.btn-primary {
+  background-color: #00bac6;
+}
+
+.first-collapse {
+  padding: 1px;
+}
+
+.footer-copyright {
+	background-color: #000;
+	color: white;
+}
+
+.page-footer {
+	background-color: #4a4a4c;
+}
